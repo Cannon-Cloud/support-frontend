@@ -2,13 +2,12 @@ import React from "react";
 import "./App.css";
 
 import Entry from "./pages/entry/Entry.page";
-
-import { Button } from "react-bootstrap";
+import DefaultLayout from "./layout/DefaultLayout";
 
 function App() {
   return (
     <div>
-      <Entry></Entry>
+      <DefaultLayout>DASHBOARD</DefaultLayout>
     </div>
   );
 }
